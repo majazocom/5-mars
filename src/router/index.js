@@ -1,7 +1,7 @@
 import Vue from "vue";
 import VueRouter from 'vue-router';
-import Pokemons from '../components/Pokemons'
-import PokemonInfo from '../components/PokemonInfo'
+import Pokemons from '../components/Pokemons';
+import PokemonInfo from '../components/PokemonInfo';
 
 Vue.use(VueRouter);
 
@@ -12,7 +12,7 @@ const routes = [
     },
     {
         path: '/pokemon/:id',
-        components: PokemonInfo
+        component: PokemonInfo
     }
 ]
 

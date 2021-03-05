@@ -18,7 +18,7 @@ export default {
     },
     methods: {
         showPokemon: function() {
-            console.log(this.pokemon)
+            console.log(this.pokemon);
             this.$router.push('/pokemon/' + this.pokemon.id);
         }
     }
