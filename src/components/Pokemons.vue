@@ -1,7 +1,6 @@
 <template>
   <section>
-    <p>pokemons</p>
-    <PokemonCard v-for="(pokemon, index) in pokemons" v-bind:key="index" />
+    <PokemonCard v-for="(pokemon, index) in pokemons" v-bind:key="index" v-bind:pokemon="pokemon" />
   </section>
 </template>
 
