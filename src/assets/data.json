@@ -1,0 +1,40 @@
+{
+    "pokemons" : [
+        {
+            "id": 1,
+            "name": "bulbasaur",
+            "attack": "hugs",
+            "element": "grass"
+        },
+        {
+            "id": 2,
+            "name": "ivysaur",
+            "attack": "hugs",
+            "element": "grass"
+        },
+        {
+            "id": 3,
+            "name": "venusaur",
+            "attack": "hugs",
+            "element": "grass poison"
+        },
+        {
+            "id": 4,
+            "name": "charmander",
+            "attack": "hugs",
+            "element": "fire"
+        },
+        {
+            "id": 5,
+            "name": "charmeleon",
+            "attack": "hugs",
+            "element": "fire"
+        },
+        {
+            "id": 6,
+            "name": "charizard",
+            "attack": "hugs",
+            "element": "fire"
+        }
+    ]
+}
