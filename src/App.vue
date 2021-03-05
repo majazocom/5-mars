@@ -1,17 +1,18 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <Pokemons msg="Welcome to Your Vue.js App"/>
+    <router-view v-bind:pokemons="pokemons" />
   </div>
 </template>
 
 <script>
-import Pokemons from './components/Pokemons.vue'
+import pokemons from './assets/pokemons.json';
 
 export default {
   name: 'App',
-  components: {
-    Pokemons
+  computed: {
+    pokemons() {
+      return pokemons.pokemons;
+    }
   }
 }
 </script>
