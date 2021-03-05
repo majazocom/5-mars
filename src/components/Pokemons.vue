@@ -1,14 +1,22 @@
 <template>
-  <p>Pokemon</p>
+  <section>
+    <p>pokemons</p>
+    <PokemonCard v-for="(pokemon, index) in pokemons" v-bind:key="index" />
+  </section>
 </template>
 
 <script>
+import PokemonCard from "./PokemonCard";
+
 export default {
-  name: 'Pokemons',
+  name: "Pokemons",
+  components: {
+    PokemonCard,
+  },
   props: {
-    msg: String
-  }
-}
+    pokemons: Array,
+  },
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
